@@ -35,7 +35,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-in-right">
-          Transforme seu conhecimento em renda com nossos infoprodutos profissionais.
+          Templates editáveis e infoprodutos exclusivos para transformar sua presença digital.
         </p>
 
         <Button 

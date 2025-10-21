@@ -29,8 +29,8 @@ const AboutSection = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ajudamos criadores e empreendedores a expandirem sua presença digital 
-            com recursos práticos, bonitos e eficazes.
+            Oferecemos templates editáveis para você personalizar e produtos digitais 
+            exclusivos para impulsionar sua presença online.
           </p>
         </div>
 

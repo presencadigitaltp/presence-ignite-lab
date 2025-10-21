@@ -8,26 +8,26 @@ import audioIcon from "@/assets/audio-icon.png";
 const ProductsSection = () => {
   const products = [
     {
-      title: "Ebooks Profissionais",
-      description: "Conteúdo rico e bem estruturado para compartilhar seu conhecimento.",
+      title: "Modelos de Ebooks Editáveis",
+      description: "Templates profissionais de ebooks prontos para você personalizar e vender.",
       icon: ebookIcon,
       color: "from-purple to-cyan"
     },
     {
-      title: "Cursos Online",
-      description: "Plataforma completa para criar e vender seus cursos em vídeo.",
+      title: "Cursos Online Exclusivos",
+      description: "Cursos completos criados pela nossa equipe para impulsionar seu negócio digital.",
       icon: courseIcon,
       color: "from-pink to-purple"
     },
     {
-      title: "Packs Editáveis",
-      description: "Templates prontos para editar no Canva e vender para seus clientes.",
+      title: "Packs de Canva Editáveis",
+      description: "Templates prontos para editar no Canva e usar em seus projetos.",
       icon: templateIcon,
       color: "from-purple to-pink"
     },
     {
-      title: "Audiobooks",
-      description: "Transforme seu conteúdo em áudio de alta qualidade.",
+      title: "Audiobooks Originais",
+      description: "Conteúdo exclusivo em áudio criado pela Presença Digital TP.",
       icon: audioIcon,
       color: "from-cyan to-purple"
     }
@@ -43,7 +43,7 @@ const ProductsSection = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Escolha o formato ideal para monetizar seu conhecimento
+            Templates editáveis e produtos exclusivos para alavancar seu negócio
           </p>
         </div>
 
