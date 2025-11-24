@@ -74,10 +74,42 @@ const BlackFriday = () => {
       ]
     },
     {
+      name: "Pack Profissionais e Serviços",
+      description: "Templates especializados para profissionais de diversas áreas",
+      icon: courseIcon,
+      color: "from-cyan to-pink",
+      variants: [
+        {
+          language: "Português",
+          currency: "R$",
+          oldPrice: "19,90",
+          newPrice: "12",
+          discount: "40%",
+          link: "https://pay.hotmart.com/W103001851C?off=wdl7wxur&checkoutMode=10"
+        },
+        {
+          language: "English",
+          currency: "$",
+          oldPrice: "10",
+          newPrice: "5",
+          discount: "50%",
+          link: "https://blackfridaycanvaboss.presencadigitaltp.pt/"
+        },
+        {
+          language: "Español",
+          currency: "€",
+          oldPrice: "10",
+          newPrice: "5",
+          discount: "50%",
+          link: "https://blackfridaycanvaboss.presencadigitaltp.pt/"
+        }
+      ]
+    },
+    {
       name: "Pack Saúde, Estética e Bem-estar",
       description: "Templates especializados para profissionais da saúde",
-      icon: courseIcon,
-      color: "from-cyan to-purple",
+      icon: templateIcon,
+      color: "from-purple to-cyan",
       variants: [
         {
           language: "Português",
