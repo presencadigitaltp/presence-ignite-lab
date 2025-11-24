@@ -8,27 +8,27 @@ import audioIcon from "@/assets/audio-icon.png";
 const ProductsSection = () => {
   const products = [
     {
-      title: "Modelos de Ebooks Editáveis",
-      description: "Templates profissionais de ebooks prontos para você personalizar e vender.",
-      icon: ebookIcon,
+      title: "CanvaBoss",
+      description: "O maior pack do Canva com mais de 2.670 templates 100% editáveis divididos em 60 packs temáticos. Crie posts, e-books, carrosséis e muito mais.",
+      icon: templateIcon,
       color: "from-purple to-cyan"
     },
     {
-      title: "Cursos Online Exclusivos",
-      description: "Cursos completos criados pela nossa equipe para impulsionar seu negócio digital.",
+      title: "Packs Temáticos Nichados",
+      description: "Coleções especializadas para profissionais: Saúde, Estética, Artes, Negócios, Marketing Digital e muito mais. Templates personalizáveis para qualquer nicho.",
       icon: courseIcon,
       color: "from-pink to-purple"
     },
     {
-      title: "Packs de Canva Editáveis",
-      description: "Templates prontos para editar no Canva e usar em seus projetos.",
-      icon: templateIcon,
+      title: "Pack Feed Magnético",
+      description: "Guia completo de psicologia das cores + 140 paletas prontas para criar uma identidade visual que atrai e converte.",
+      icon: audioIcon,
       color: "from-purple to-pink"
     },
     {
-      title: "Audiobooks Originais",
-      description: "Conteúdo exclusivo em áudio criado pela Presença Digital TP.",
-      icon: audioIcon,
+      title: "Ebook Transforme sua Vida",
+      description: "Guia prático sobre hábitos que mudam destinos. Estratégias testadas para desenvolvimento pessoal e produtividade.",
+      icon: ebookIcon,
       color: "from-cyan to-purple"
     }
   ];
@@ -43,7 +43,7 @@ const ProductsSection = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Templates editáveis e produtos exclusivos para alavancar seu negócio
+            Packs de Canva profissionais, guias estratégicos e conteúdos exclusivos para transformar sua presença digital
           </p>
         </div>
 

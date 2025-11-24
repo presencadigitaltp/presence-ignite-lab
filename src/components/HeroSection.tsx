@@ -35,7 +35,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-in-right">
-          Templates editáveis e infoprodutos exclusivos para transformar sua presença digital.
+          Mais de 2.670 templates editáveis no Canva, packs nichados e conteúdos estratégicos para elevar sua presença digital.
         </p>
 
         <Button 

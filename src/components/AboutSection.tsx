@@ -29,8 +29,8 @@ const AboutSection = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Oferecemos templates editáveis para você personalizar e produtos digitais 
-            exclusivos para impulsionar sua presença online.
+            Criamos a maior coleção de templates profissionais do Canva e materiais estratégicos 
+            para empreendedores que querem posts profissionais, identidade visual marcante e um feed de autoridade.
           </p>
         </div>
 
