@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Sparkles } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Sparkles, Zap } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -23,6 +25,13 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
+        <Link to="/black-friday" className="inline-block mb-4">
+          <Badge className="px-6 py-2 text-base bg-gradient-to-r from-purple to-pink border-none hover:scale-105 transition-transform cursor-pointer inline-flex items-center gap-2 animate-pulse">
+            <Zap className="w-4 h-4" />
+            BLACK FRIDAY - Descontos Especiais!
+          </Badge>
+        </Link>
+        
         <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-card/50 backdrop-blur-sm border border-border">
           <Sparkles className="w-4 h-4 text-primary animate-glow" />
           <span className="text-sm text-muted-foreground">Infoprodutos Profissionais</span>
