@@ -25,18 +25,6 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
-        <Link to="/black-friday" className="inline-block mb-4">
-          <Badge className="px-6 py-2 text-base bg-gradient-to-r from-purple to-pink border-none hover:scale-105 transition-transform cursor-pointer inline-flex items-center gap-2 animate-pulse">
-            <Zap className="w-4 h-4" />
-            BLACK FRIDAY - Descontos Especiais!
-          </Badge>
-        </Link>
-        
-        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-card/50 backdrop-blur-sm border border-border">
-          <Sparkles className="w-4 h-4 text-primary animate-glow" />
-          <span className="text-sm text-muted-foreground">Infoprodutos Profissionais</span>
-        </div>
-
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 animate-slide-in-left">
           <span className="bg-gradient-to-r from-purple via-cyan to-pink bg-clip-text text-transparent">
             Presença Digital TP
